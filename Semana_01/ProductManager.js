@@ -36,7 +36,6 @@ class ProductManager
             ...product,
             id: ++this.Id 
         };
-
         this.products.push(newProduct);
         return newProduct;
     }
@@ -56,7 +55,6 @@ class ProductManager
         return product;
     }
 }
-
 const producto = new ProductManager();
 
 //------------------- 01. Listar Productos -------------------
